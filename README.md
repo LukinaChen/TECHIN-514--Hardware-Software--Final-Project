@@ -26,6 +26,8 @@ The display device provides a physical and glanceable visualization of sleep qua
 - LED: Standard 5mm LED
 - Input: Tactile push button
 - Power: Battery-powered (e.g. AA batteries or LiPo battery)
+![Display Device Sketch](images/display_device_sketch.png)
+
 
 The stepper motor is only activated when the displayed value changes, minimizing power consumption.
 
