@@ -12,6 +12,7 @@ The sensing device is placed near the user’s bed and is responsible for detect
 - Microcontroller: Seeed Studio XIAO ESP32-C3
 - Microphone: INMP441 Digital MEMS Microphone
 - Power: 3.7V LiPo battery
+- Charging Module：TP4056 Lithium Battery Charger Module
 ![Sensor Device Sketch](images/sensor_device_sketch.png)
 
 The sensing device is designed for overnight operation and employs local processing and low-power wireless communication to reduce energy consumption.
@@ -23,9 +24,10 @@ The display device provides a physical and glanceable visualization of sleep qua
 **Key hardware components:**
 - Microcontroller: Seeed Studio XIAO ESP32-C3
 - Stepper Motor: 28BYJ-48 Stepper Motor with ULN2003 Driver
-- LED: Standard 5mm LED
-- Input: Tactile push button
-- Power: Battery-powered (e.g. AA batteries or LiPo battery)
+- Motor Driver: ULN2003 Driver Board 
+- Indication: Standard 5mm LED + 220Ω Resistor
+- Input: 6x6x5mm Tactile push button
+- Power: 3.7V LiPo battery
 ![Display Device Sketch](images/display_device_sketch.png)
 
 
