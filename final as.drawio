@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="第 1 页" id="a8_LUjAAXd-Jj_alKhmh">
+    <mxGraphModel dx="814" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-6" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p data-path-to-node=&quot;6,0,1,0,1,0,0&quot;&gt;&lt;code data-path-to-node=&quot;6,0,1,0,1,0,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;XIAO ESP32-C3&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;6,0,1,0,1,1,0&quot;&gt;&lt;code data-path-to-node=&quot;6,0,1,0,1,1,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;INMP441 Microphone&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;6,0,1,0,1,2,0&quot;&gt;&lt;code data-path-to-node=&quot;6,0,1,0,1,2,0&quot; data-index-in-node=&quot;0&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;USB Power (5V)&lt;/font&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="210" width="210" x="140" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-2" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="Sensor Device (Bedside)" vertex="1">
+          <mxGeometry height="40" width="170" x="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-4" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="Display Device (Tabletop)" vertex="1">
+          <mxGeometry height="40" width="170" x="617" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;ul&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;6,0,1,0,1,0,0&quot;&gt;XIAO ESP32-C3&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;6,0,1,0,1,0,0&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Stepper Motor &amp;amp; Driver&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;6,0,1,0,1,0,0&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LED &amp;amp; Button&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p data-path-to-node=&quot;6,0,1,0,1,0,0&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;USB Power (5V)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="210" width="230" x="597" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-7" parent="1" style="text;whiteSpace=wrap;html=1;" value="Wireless Communication (BLE)" vertex="1">
+          <mxGeometry height="40" width="180" x="380" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-8" parent="1" style="text;whiteSpace=wrap;html=1;" value="Sleep Quality Score" vertex="1">
+          <mxGeometry height="40" width="180" x="390" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-9" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=none;labelBackgroundColor=none;fontStyle=1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Communication Overview&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="210" x="140" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-10" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=none;labelBackgroundColor=none;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;&quot;&gt;HW + SW System Architecture&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="130" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="720" width="370" x="120" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-12" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="Sensing Device (XIAO ESP32-C3)" vertex="1">
+          <mxGeometry height="40" width="220" x="195" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-16" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kzTnmBlhH9afWF6a70gZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Microphone (INMP441) [HW]" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB Power (5V) [HW]" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-18" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Audio Sampling (I2S)&lt;div&gt;&amp;nbsp;[SW]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="220" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-20" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kzTnmBlhH9afWF6a70gZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Snore Detection (DSP) [SW]" vertex="1">
+          <mxGeometry height="80" width="150" x="220" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-22" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Sleep Scoring Logic [SW]" vertex="1">
+          <mxGeometry height="80" width="150" x="220" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Wireless Transmission (ESP-NOW) [SW]" vertex="1">
+          <mxGeometry height="80" width="150" x="220" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="720" width="563" x="617" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-24" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=1" value="Display Device&amp;nbsp;(XIAO ESP32-C3)" vertex="1">
+          <mxGeometry height="40" width="220" x="692" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-28" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-46" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Display Control Logic [SW]" vertex="1">
+          <mxGeometry height="80" width="150" x="827" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-51" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Stepper Control [SW]" vertex="1">
+          <mxGeometry height="80" width="150" x="827" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-39" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-35" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Wireless Receiver [SW]" vertex="1">
+          <mxGeometry height="80" width="150" x="717" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-37" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="kzTnmBlhH9afWF6a70gZ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-52" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span data-path-to-node=&quot;14,2,1,3,0&quot; data-index-in-node=&quot;6&quot;&gt;ULN2003 Driver [HW]&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="827" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stepper Motor (28BYJ-48) [HW]" vertex="1">
+          <mxGeometry height="60" width="150" x="827" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LED Indicator [HW]" vertex="1">
+          <mxGeometry height="60" width="150" x="990" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;USB Power (5V) [HW]&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="920" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-50" edge="1" parent="1" source="kzTnmBlhH9afWF6a70gZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kzTnmBlhH9afWF6a70gZ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzTnmBlhH9afWF6a70gZ-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Button Input [HW]" vertex="1">
+          <mxGeometry height="60" width="150" x="637" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
