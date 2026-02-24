@@ -26,6 +26,16 @@ Logic: Timed Wake-up strategy (1Hz duty cycle) – The system samples audio for 
 
 The device is designed for fully automated operation. The LED serves as a transient event indicator (5% duty cycle), blinking only when a potential snore is detected or during brief wireless data syncs via ESP-NOW.
 
+**The Scoring Metric** 
+
+1. Total Snore Count: Every 1-second interval that hits the threshold.
+
+2. Bout Count: How many times the user started snoring after at least 2 minutes of silence.
+
+*Logic Criteria (Example for 8hrs)* 
+- Good: Minimalsnoring,< 50 total snores AND < 3 Bouts
+- Fair: Occasional,snoring,50–200 total snores OR 3–10 Bouts
+- Poor: Frequent/Heavy snoring,> 200 total snores OR > 10 Bouts
 
 ## Display Device – Sleep Quality Gauge
 The display device provides a physical and glanceable visualization of sleep quality data received from the sensing device. It uses a stepper-motor-driven gauge needle to represent sleep quality levels, allowing users to quickly understand their sleep performance.It provides a physical and glanceable visualization of sleep quality data. It features a custom-designed PCB that integrates a high-precision automotive-grade stepper motor and user interaction components.An LED provides a simple on/off indication of snoring activity. The device receives data wirelessly and updates the display accordingly.  
