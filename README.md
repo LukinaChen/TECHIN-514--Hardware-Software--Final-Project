@@ -9,12 +9,18 @@ SnoreSense is a connected sleep quality indicator designed to help users become 
 The sensing device is placed near the user’s bed and is responsible for detecting snoring activity during sleep. It uses a digital MEMS microphone (INMP441) to capture audio signals and an ESP32 microcontroller to process the data locally. Simple digital signal processing techniques are applied to detect and count snoring events overnight. The summarized results are then transmitted wirelessly to the display device.
 
 **Key hardware components:**
-Microcontroller: Seeed Studio XIAO ESP32-C3 
-Microphone: INMP441 (Part No. 441NP0552) Digital MEMS Microphone 
-Power: 3.7V 1000mAh LiPo battery 
-Charging Module: TP4056 Lithium Battery Charger Module 
-Power Management: SPST Slide Switch for physical battery isolation 
-Logic: Timed Wake-up strategy (1Hz duty cycle) – The system samples audio for 200ms every second and remains in Deep Sleep for the remaining 800ms. 
+Microcontroller: Seeed Studio XIAO ESP32-C3
+
+Microphone: INMP441 (Part No. 441NP0552) Digital MEMS Microphone
+
+Power: 3.7V 1000mAh LiPo battery
+
+Charging Module: TP4056 Lithium Battery Charger Module
+
+Power Management: SPST Slide Switch for physical battery isolation
+
+Logic: Timed Wake-up strategy (1Hz duty cycle) – The system samples audio for 200ms every second and remains in Deep Sleep for the remaining 800ms.
+
 ![Sensor Device Sketch](images/sensor_device_sketch.png)
 
 The device is designed for fully automated operation. The LED serves as a transient event indicator (5% duty cycle), blinking only when a potential snore is detected or during brief wireless data syncs via ESP-NOW.
