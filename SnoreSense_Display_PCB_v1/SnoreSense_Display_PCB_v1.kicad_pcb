@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Gerber-V4Lukina/")
+			(outputdirectory "../SnoreSense_Diplay pcb- V3/Gerber-V4Lukina/")
 		)
 	)
 	(net 0 "")
