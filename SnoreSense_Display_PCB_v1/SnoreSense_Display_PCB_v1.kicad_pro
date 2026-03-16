@@ -487,7 +487,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../SnoreSense_Diplay pcb- V3/Gerber-V4Lukina/",
+      "plot": "../Gerber-V4Lukina/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "SnoreSense_Display_PCB_v1.step",
