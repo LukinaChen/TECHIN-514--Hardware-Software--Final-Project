@@ -5,7 +5,7 @@ SnoreSense is a connected sleep quality indicator designed to help users become 
 ![General Concept Sketch](images/general_concept_sketch.png)
 
 ## Demo Video
-[![Demo Video]((https://www.youtube.com/watch?v=h0CMzlRr8LE)) 
+[![Demo Video](https://img.youtube.com/vi/h0CMzlRr8LE/0.jpg)](https://www.youtube.com/watch?v=h0CMzlRr8LE)
 
 ## Sensor Device – Snoring Detection Unit
 The sensing device is placed near the user’s bed and is responsible for detecting snoring activity during sleep. It uses a digital MEMS microphone (INMP441) to capture audio signals and an ESP32 microcontroller to process the data locally. Simple digital signal processing techniques are applied to detect and count snoring events overnight. The summarized results are then transmitted wirelessly to the display device.
